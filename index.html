@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="CSS/style.css" >
+    <title>Filter Category</title>
+</head>
+<body>
+    <!--header section starts here-->
+
+    <header>
+        <section class="wrapper">
+            <header class="container">
+                <div class="left">
+                    <h1><a href="#">LOGO.</a></h1>
+                </div>
+                <div class="right">
+                    <input type="checkbox" id="check"/>
+                    <ul>
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#">Products</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                    </ul>
+                    <label for="check" class="button bars">
+                        <i class="fas fa-bars"></i>
+                    </label>
+                </div>
+            </header>
+        </section>
+    </header>
+
+    <!--header section ends here-->
+
+    <!--product section starts here-->
+
+    <section id="product_list">
+        <section class="wrapper">
+            <div class="top">
+                <select id="products">
+                    <option value="all">All Products</option>
+                    <option value="men's clothing">Men's Clothing</option>
+                    <option value="women's clothing">Women's Clothing</option>
+                    <option value="electronics">Electronics</option>
+                    <option value="jewelery">Jewelery</option>
+                </select>
+            </div>
+            <div class="container">
+                <div class="product_items">
+                     <div class="category">
+                        <span class="img1">
+                            <img src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg" alt=""/>
+                        </span>
+                        <div class="box">
+                            <span class="small">
+                                <h4>Mens Casual Premium Slim <br/> Fit T-Shirts</h4>
+                                <h5>3.9</h5>
+                            </span>
+                            <h5>price:</h5>
+                            <button>Buy Now</button>
+                        </div>
+                    </div>
+              </div>
+            </div>
+        </section>
+    </section>
+    <!--product section ends here-->
+
+    <script src="./script.js"></script>
+</body>
+</html>
